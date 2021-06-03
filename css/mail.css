@@ -1,19 +1,45 @@
 body {
-    color: #E5E5E5;
+  background-color: #ffffff;
+  color: #757575;
 }
 
-.page {
-    color: #E5E5E5;
+.list {
+  list-style: none;
 }
 
-
-/* Колір основного тесту background: #212121 */
-
-
-/* вторинний колір тексту #757575 */
-
-
+/* Колір основного тесту #757575 */
+/* вторинний колір тексту #212121 */
+/* первинний колір фону #E5E5E5 */
+/* вторинний колір фону #F5F4FA */
 /* білий #FFFFFF */
+/* колір адреси #ffff */
+/* акцент #2196F3 */
+/* колір пошти та телефону rgba(0, 0, 0, 0.6)
+*/
 
+.logo {
+  color: #000000;
+}
 
-/* акцент #2196F3, */
+/* site nav */
+.site-nav .link {
+  color: #212121;
+}
+
+.cont-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.cont-nav .link:hover,
+.cont-nav .link:focus {
+  color: #2196f3;
+}
+
+.section-title {
+  color: #000000;
+}
