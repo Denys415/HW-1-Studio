@@ -1,6 +1,12 @@
+:root {
+  --primary-text-colore: #757575;
+  --title-text-colore: #212121;
+  --accent-colore: #2196f3;
+}
+
 body {
   background-color: #ffffff;
-  color: #757575;
+  color: var(--primary-text-colore);
 }
 
 .list {
@@ -8,7 +14,7 @@ body {
 }
 
 /* Колір основного тесту #757575 */
-/* вторинний колір тексту #212121 */
+/* вторинний колір тексту 212121# */
 /* первинний колір фону #E5E5E5 */
 /* вторинний колір фону #F5F4FA */
 /* білий #FFFFFF */
@@ -18,7 +24,7 @@ body {
 */
 
 .logo {
-  color: #000000;
+  color: var(--title-text-colore);
 }
 
 /* site nav */
@@ -32,14 +38,18 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-colore);
 }
 
 .cont-nav .link:hover,
 .cont-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-colore);
 }
 
-.section-title {
-  color: #000000;
+.section .title {
+  color: var(--title-text-colore);
+}
+/* Особливості feature-list*/
+.feature-list .title {
+  color: var(--title-text-colore);
 }
