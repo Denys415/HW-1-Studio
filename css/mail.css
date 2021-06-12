@@ -5,14 +5,15 @@
 /* білий #FFFFFF */
 /* колір адреси #ffff */
 /* акцент #2196F3 */
-/* колір пошти та телефону rgba(0, 0, 0, 0.6)
-*/
+/* колір пошти та телефону rgba(0, 0, 0, 0.6)*/
+/* Колір фону кнопок портфоліо #F5F4FA */
 
 :root {
   --primary-text-colore: #757575;
   --title-text-colore: #212121;
   --accent-colore: #2196f3;
   --btn-colore-primary: #ffffff;
+  --bg-primary-colore-portfolio-btn: ##f5f4fa;
 }
 
 body {
@@ -83,4 +84,23 @@ body {
 .btn.secondary {
   color: var(--accent-colore);
   background-color: var(--btn-colore-primary);
+}
+
+/* Портфолио */
+.port-nav .link {
+  color: var(--title-text-colore);
+}
+
+.port-nav .link:hover,
+.port-nav .link:focus {
+  color: var(--btn-colore-primary);
+  background-color: var(--accent-colore);
+}
+
+.port-work {
+  color: var(--title-text-colore);
+}
+
+.port-work .link {
+  color: var(--primary-text-colore);
 }
