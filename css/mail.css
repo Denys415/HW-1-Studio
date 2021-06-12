@@ -1,7 +1,18 @@
+/* Колір основного тесту #757575 */
+/* вторинний колір тексту 212121# */
+/* первинний колір фону #E5E5E5 */
+/* вторинний колір фону #F5F4FA */
+/* білий #FFFFFF */
+/* колір адреси #ffff */
+/* акцент #2196F3 */
+/* колір пошти та телефону rgba(0, 0, 0, 0.6)
+*/
+
 :root {
   --primary-text-colore: #757575;
   --title-text-colore: #212121;
   --accent-colore: #2196f3;
+  --btn-colore-primary: #ffffff;
 }
 
 body {
@@ -13,27 +24,26 @@ body {
   list-style: none;
 }
 
-/* Колір основного тесту #757575 */
-/* вторинний колір тексту 212121# */
-/* первинний колір фону #E5E5E5 */
-/* вторинний колір фону #F5F4FA */
-/* білий #FFFFFF */
-/* колір адреси #ffff */
-/* акцент #2196F3 */
-/* колір пошти та телефону rgba(0, 0, 0, 0.6)
-*/
-
 .logo {
   color: var(--title-text-colore);
 }
 
 /* site nav */
+
 .site-nav .link {
   color: #212121;
 }
 
 .cont-nav .link {
   color: #212121;
+}
+
+.footer.link {
+  color: var(--title-text-colore);
+}
+
+.team.link {
+  color: var(--primary-text-colore);
 }
 
 .site-nav .link:hover,
@@ -46,10 +56,31 @@ body {
   color: var(--accent-colore);
 }
 
+.site-nav .link.current {
+  color: var(--accent-colore);
+}
+
 .section .title {
   color: var(--title-text-colore);
 }
+
 /* Особливості feature-list*/
+
 .feature-list .title {
   color: var(--title-text-colore);
+}
+
+.btn {
+  colore: var(--title-text-colore);
+  background-color: var(--btn-colore-primary);
+}
+
+.btn.primary {
+  color: var(--btn-colore-primary);
+  background-color: var(--accent-colore);
+}
+
+.btn.secondary {
+  color: var(--accent-colore);
+  background-color: var(--btn-colore-primary);
 }
