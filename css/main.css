@@ -7,6 +7,7 @@
 /* акцент #2196F3 */
 /* колір пошти та телефону rgba(0, 0, 0, 0.6)*/
 /* Колір фону кнопок портфоліо #F5F4FA */
+/* Колір фону подвал #2F303A */
 
 :root {
   --primary-text-colore: #757575;
@@ -14,6 +15,11 @@
   --accent-colore: #2196f3;
   --btn-colore-primary: #ffffff;
   --bg-primary-colore-portfolio-btn: ##f5f4fa;
+  --bg-footer-colore: #2f303a;
+  --primary-text-footer-colore: #ffffff;
+  --secondary-text-footer-colore: rgba(255, 255, 255, 0.6);
+  --web-logo-colore: #2196f3;
+  --foot-web-logo-colore: #2196f3;
 }
 
 body {
@@ -29,6 +35,10 @@ body {
   color: var(--title-text-colore);
 }
 
+.web-logo {
+  color: var(--web-logo-colore);
+}
+
 /* site nav */
 
 .site-nav .link {
@@ -37,10 +47,6 @@ body {
 
 .cont-nav .link {
   color: #212121;
-}
-
-.footer.link {
-  color: var(--title-text-colore);
 }
 
 .site-nav .link:hover,
@@ -98,5 +104,26 @@ body {
 }
 
 .port-work .link {
-  color: var(--primary-text-colore);
+  color: var(--title-text-colore);
+}
+
+/* Подвал */
+footer {
+  background-color: var(--bg-footer-colore);
+}
+
+.web-foot-logo {
+  color: var(--foot-web-logo-colore);
+}
+
+.foot-logo {
+  color: var(--primary-text-footer-colore);
+}
+
+.footer.link {
+  color: var(--secondary-text-footer-colore);
+}
+
+.foot-address {
+  color: var(--primary-text-footer-colore);
 }
