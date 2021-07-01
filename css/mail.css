@@ -43,10 +43,6 @@ body {
   color: var(--title-text-colore);
 }
 
-.team.link {
-  color: var(--primary-text-colore);
-}
-
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-colore);
@@ -87,12 +83,12 @@ body {
 }
 
 /* Портфолио */
-.port-nav .link {
+.port-but .link {
   color: var(--title-text-colore);
 }
 
-.port-nav .link:hover,
-.port-nav .link:focus {
+.port-but .link:hover,
+.port-but .link:focus {
   color: var(--btn-colore-primary);
   background-color: var(--accent-colore);
 }
