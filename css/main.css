@@ -13,7 +13,7 @@
   --primary-text-colore: #757575;
   --title-text-colore: #212121;
   --accent-colore: #2196f3;
-  --btn-colore-primary: #ffffff;
+  --btn-colore-primary: ;
   --bg-primary-colore-portfolio-btn: ##f5f4fa;
   --bg-footer-colore: #2f303a;
   --primary-text-footer-colore: #ffffff;
@@ -21,10 +21,9 @@
   --web-logo-colore: #2196f3;
   --foot-web-logo-colore: #2196f3;
 }
-
-body {
+#ffffff body {
   background-color: #ffffff;
-  color: var(--primary-text-colore);
+  color: #757575;
 }
 
 .list {
@@ -32,11 +31,11 @@ body {
 }
 
 .logo {
-  color: var(--title-text-colore);
+  color: #212121;
 }
 
 .web-logo {
-  color: var(--web-logo-colore);
+  color: #2196f3;
 }
 
 /* site nav */
@@ -51,79 +50,79 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-colore);
+  color: #2196f3;
 }
 
 .cont-nav .link:hover,
 .cont-nav .link:focus {
-  color: var(--accent-colore);
+  color: #2196f3;
 }
 
 .site-nav .link.current {
-  color: var(--accent-colore);
+  color: #2196f3;
 }
 
 .section .title {
-  color: var(--title-text-colore);
+  color: #212121;
 }
 
 /* Особливості feature-list*/
 
 .feature-list .title {
-  color: var(--title-text-colore);
+  color: #212121;
 }
 
 .btn {
-  colore: var(--title-text-colore);
-  background-color: var(--btn-colore-primary);
+  colore: #212121;
+  background-color: #ffffff;
 }
 
 .btn.primary {
-  color: var(--btn-colore-primary);
-  background-color: var(--accent-colore);
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .btn.secondary {
-  color: var(--accent-colore);
-  background-color: var(--btn-colore-primary);
+  color: #2196f3;
+  background-color: #ffffff;
 }
 
 /* Портфолио */
 .port-but .link {
-  color: var(--title-text-colore);
+  color: #212121;
 }
 
 .port-but .link:hover,
 .port-but .link:focus {
   color: var(--btn-colore-primary);
-  background-color: var(--accent-colore);
+  background-color: #2196f3;
 }
 
 .port-work {
-  color: var(--title-text-colore);
+  color: #212121;
 }
 
 .port-work .link {
-  color: var(--title-text-colore);
+  color: #212121;
 }
 
 /* Подвал */
 footer {
-  background-color: var(--bg-footer-colore);
+  background-color: #2f303a;
 }
 
 .web-foot-logo {
-  color: var(--foot-web-logo-colore);
+  color: #2196f3;
 }
 
 .foot-logo {
-  color: var(--primary-text-footer-colore);
+  color: #ffffff;
 }
 
 .footer.link {
-  color: var(--secondary-text-footer-colore);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .foot-address {
-  color: var(--primary-text-footer-colore);
+  color: #ffffff;
 }
