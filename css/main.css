@@ -13,15 +13,12 @@
   --primary-text-colore: #757575;
   --title-text-colore: #212121;
   --accent-colore: #2196f3;
-  --btn-colore-primary: ;
   --bg-primary-colore-portfolio-btn: ##f5f4fa;
   --bg-footer-colore: #2f303a;
   --primary-text-footer-colore: #ffffff;
   --secondary-text-footer-colore: rgba(255, 255, 255, 0.6);
-  --web-logo-colore: #2196f3;
-  --foot-web-logo-colore: #2196f3;
 }
-#ffffff body {
+body {
   background-color: #ffffff;
   color: #757575;
 }
@@ -30,15 +27,7 @@
   list-style: none;
 }
 
-.logo {
-  color: #212121;
-}
-
-.web-logo {
-  color: #2196f3;
-}
-
-/* site nav */
+/* Шапка сайта, site nav */
 
 .site-nav .link {
   color: #212121;
@@ -62,13 +51,9 @@
   color: #2196f3;
 }
 
+/* Hero */
+
 .section .title {
-  color: #212121;
-}
-
-/* Особливості feature-list*/
-
-.feature-list .title {
   color: #212121;
 }
 
@@ -87,26 +72,19 @@
   background-color: #ffffff;
 }
 
-/* Портфолио */
-.port-but .link {
+/* Основна частина */
+/* Особливості feature-list*/
+
+.feature-list .title {
   color: #212121;
 }
 
-.port-but .link:hover,
-.port-but .link:focus {
-  color: var(--btn-colore-primary);
-  background-color: #2196f3;
-}
+/* Переваги, Preference */
 
-.port-work {
-  color: #212121;
-}
-
-.port-work .link {
-  color: #212121;
-}
+/* Команда */
 
 /* Подвал */
+
 footer {
   background-color: #2f303a;
 }
@@ -125,4 +103,26 @@ footer {
 
 .foot-address {
   color: #ffffff;
+}
+
+/* Портфолио */
+
+/* Чим ми займаємось */
+
+.port-but .link {
+  color: #212121;
+}
+
+.port-but .link:hover,
+.port-but .link:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.port-work {
+  color: #212121;
+}
+
+.port-work .link {
+  color: #212121;
 }
