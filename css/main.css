@@ -23,6 +23,7 @@ body {
   color: #757575;
 
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -30,6 +31,10 @@ body {
 }
 
 /* Шапка сайта, site nav */
+
+.header {
+  letter-spacing: 0.02em;
+}
 
 .site-nav .link {
   color: #212121;
@@ -54,6 +59,15 @@ body {
 }
 
 /* Hero */
+
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 
 .section .title {
   color: #212121;
