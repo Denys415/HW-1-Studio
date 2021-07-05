@@ -38,10 +38,18 @@ body {
 
 .site-nav .link {
   color: #212121;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .cont-nav .link {
-  color: #212121;
+  color: #757575;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .site-nav .link:hover,
@@ -61,6 +69,7 @@ body {
 /* Hero */
 
 .hero-text {
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -69,8 +78,13 @@ body {
   text-transform: uppercase;
 }
 
-.section .title {
+.section .title,
+.command .title {
   color: #212121;
+}
+
+button {
+  font-family: inherit;
 }
 
 .btn {
@@ -81,6 +95,13 @@ body {
 .btn.primary {
   color: #ffffff;
   background-color: #2196f3;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  letter-spacing: 0.06em;
 }
 
 .btn.secondary {
@@ -93,16 +114,68 @@ body {
 
 .feature-list .title {
   color: #212121;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.feature-list .feature-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* Переваги, Preference */
+.preference,
+.command-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 
-/* Команда */
+/* Команда command*/
+
+.team {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 
 /* Подвал */
 
 footer {
   background-color: #2f303a;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .web-foot-logo {
@@ -127,6 +200,13 @@ footer {
 
 .port-but .link {
   color: #212121;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .port-but .link:hover,
@@ -135,10 +215,20 @@ footer {
   background-color: #2196f3;
 }
 
-.port-work {
+.port-work .title {
   color: #212121;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
-.port-work .link {
+.port-work .text {
   color: #212121;
+
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
